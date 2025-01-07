@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/riverwalk3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-divs {
+    width: 720px;
+}
+
+#hero {
+    background-image: url(./images/alamo4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 343px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+h1{
+    background-color: #1D3557;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #FFFFFF;
+
+}
+
+h2 {
+    background-color: #457B9D;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#activities {
+    color: #1D3557;
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 378px;
+    margin: 0;
+}
+
+#activity-columns {
+    display: flex;
+    justify-content: space-around;
+    margin: 54px 33px 38px 34px;
+    padding-top: 0;
+}
+
+.activity-images {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity-description {
+    width: 198px;
+    margin-top: 17px;
+}
+
+#top-three {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 39px 0 0 0;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    height: 394px;
+    background-color: #FFFFFF;
+}
+
+#whole-card {
+    background-color: #A8DADC;
+    padding: 0 13px;
+    display: flex;
+    justify-content: center;
+    height: 294px;
+    align-items: center;
+    margin: 50px 160px;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+}
+
+#about-guide {
+    color: #1D3557;
+    height: 161px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 30px 7px;
+}
+
+#profile-picture {
+    width: 180px;
+    border-radius: 10px;
+    height: 249px;
+}
+
+#your-guide {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+#about-guide-text {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+#guide-name {
+    font-size: 16px;
+    font-weight: 700;
+}
